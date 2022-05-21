@@ -1,0 +1,129 @@
+* {
+	border: none;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+html {
+	height: 100vh;
+	background: url('../img/background.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body {
+	font-size: 15px;
+}
+
+.container {
+	min-width: 605px;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	margin-top: 300px;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	font-size: 3.8em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	text-shadow: 0 3px 6px rgba(0, 0, 0, 40%);
+}
+
+p:nth-of-type(1) {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+	color: white;
+	margin-bottom: 60px;
+	text-shadow: 0 3px 6px rgba(0, 0, 0, 30%);
+}
+
+.social-group p {
+	font-size: 1.1em;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+	margin-top: 15px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.social-group ul {
+	list-style-type: none;
+}
+
+.social-group li {
+	display: inline;
+}
+
+.social-group li a {
+	text-decoration: none;
+}
+
+.social-group li a img {
+	width: 50px;
+	margin-bottom: 0;
+	background-color: rgba(0, 0, 0, 0%);
+	transform: translateY(0);
+
+	transition-duration: 0.275s;
+	transition-timing-function: ease-in-out;
+	transition-property: opacity, transform;
+}
+
+.social-group li a img:hover {
+	opacity: 0.75;
+	transform: translateY(2px);
+}
+
+.social-group li a img:active {
+	cursor: pointer;
+	transform: translateY(4px);
+}
+
+.icon-group {
+	display: inline-block;
+	height: auto;
+	text-align: center;
+	width: 75px;
+}
+
+.icon-group a {
+	width: 100%;
+}
+
+.icon-group p {
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	margin: 0;
+	width: 100%;
+	padding-top: 0;
+	text-transform: capitalize;
+	font-weight: 200;
+}
+
+footer {
+	flex-direction: column;
+	justify-content: flex-end;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	font-size: 0.6em;
+	letter-spacing: 2px;
+	margin-top: 140px;
+	text-align: center;
+	text-transform: uppercase;
+}
